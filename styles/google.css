@@ -8,9 +8,19 @@
     font-size: 4cm;
     letter-spacing: -15px; 
     text-decoration: none;
-     
-
 }
+
+ 
+
+.googlelogo:hover { 
+-moz-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
+-webkit-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
+-o-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
+-ms-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
+transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
+}
+
+
 
 .button { 
 position: relative; 
@@ -78,4 +88,45 @@ body {
 
 
 
+   .beta { 
+position: absolute;
+left: 26.5cm;
+top: 6.5cm;
+font-size: 0.7cm;
+animation-name: beta; 
+animation-iteration-count: 1;
+animation-duration: 10s; 
+animation-timing-function: ease-out
+
+   }
+
+   @keyframes beta {
+    0% { 
+      opacity: 0.01; 
+      left: 20cm;
+    }
+    25% {
+      opacity: 0.01;
+    }
+    50% { 
+    color: red;
+      
+      
+  } 
+    60% { 
+    color: blue;
+    }
+    75% {
+      color: #f1c40f;
+    }
+    85% { 
+    color: green; 
+    }
+    100% {
+      color: black; 
+    }
     
+
+    body { 
+background-color: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    }
