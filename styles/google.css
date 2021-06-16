@@ -1,0 +1,81 @@
+
+
+.googlelogo { 
+     
+    position:absolute;
+    top: 3cm;
+    left: 13.7cm;
+    font-size: 4cm;
+    letter-spacing: -15px; 
+    text-decoration: none;
+     
+
+}
+
+.button { 
+position: relative; 
+right: 8cm;
+top: 10cm;
+right: 8.7;
+cursor: pointer; 
+padding: 8px;
+background-color: #d9dbdc;
+margin-right: 0.5cm;
+border-radius: 2px;
+font-family: arial,sans-serif;
+}
+
+.button:hover { 
+background-color: #b2bec3;
+transition: ease-out;
+}
+
+
+
+
+.searchbox {
+
+position: relative; 
+padding: 0.3cm;
+width: 25cm;
+left: 7.5cm;
+top: 8cm;
+border-radius: 20px;
+
+}
+
+.searchbox:hover { 
+background-color: #dfe6e9
+}
+
+body { 
+    background-color: #white
+    }
+    
+    
+    .entire-list { 
+    display: flex; 
+    justify-content: flex-end;
+      background-color: #white;
+        box-shadow: 0px 0px 0px #bdc3c7; 
+      padding: 0.5cm; 
+      list-style: none;   
+      position: relative;
+      bottom: 1cm;
+    }
+    
+    
+    .item a {
+      margin-right: 1cm;  
+      text-decoration: none;
+      color: black;
+    }
+    
+    .item2 { 
+    margin-right: 25cm;
+    
+    }
+
+
+
+    
