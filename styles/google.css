@@ -1,28 +1,19 @@
+  
 
 
 
 
 .googlelogo { 
-     
+
     position:absolute;
     top: 3cm;
     left: 13.7cm;
     font-size: 4cm;
     letter-spacing: -15px; 
     text-decoration: none;
+
+
 }
-
- 
-
-.googlelogo:hover { 
--moz-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
--webkit-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
--o-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
--ms-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
-}
-
-
 
 .button { 
 position: relative; 
@@ -40,6 +31,20 @@ font-family: arial,sans-serif;
 .button:hover { 
 background-color: #b2bec3;
 transition: ease-out;
+}
+
+
+
+  .beta { 
+position: absolute;
+left: 26.5cm;
+top: 6.5cm;
+font-size: 0.7cm;
+animation-name: beta; 
+animation-iteration-count: 1;
+animation-duration: 10s; 
+animation-timing-function: ease-out;
+
 }
 
 
@@ -63,8 +68,8 @@ background-color: #dfe6e9
 body { 
     background-color: #white
     }
-    
-    
+
+
     .entire-list { 
     display: flex; 
     justify-content: flex-end;
@@ -75,32 +80,44 @@ body {
       position: relative;
       bottom: 1cm;
     }
-    
-    
+
+
     .item a {
       margin-right: 1cm;  
       text-decoration: none;
       color: black;
     }
-    
+
     .item2 { 
     margin-right: 25cm;
-    
+
     }
 
 
 
-   .beta { 
-position: absolute;
-left: 26.5cm;
-top: 6.5cm;
-font-size: 0.7cm;
-animation-name: beta; 
-animation-iteration-count: 1;
-animation-duration: 10s; 
-animation-timing-function: ease-out
 
-   }
+
+.googlelogo:hover { 
+-moz-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
+-webkit-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
+-o-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
+-ms-transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
+transform: scale(1.2) rotate(360deg) skew(-32deg, 0deg);
+}
+
+
+
+.button { 
+position: relative; 
+right: 8cm;
+}
+
+
+
+
+ 
+
+
 
    @keyframes beta {
     0% { 
@@ -112,8 +129,6 @@ animation-timing-function: ease-out
     }
     50% { 
     color: red;
-      
-      
   } 
     60% { 
     color: blue;
@@ -127,9 +142,6 @@ animation-timing-function: ease-out
     100% {
       color: black; 
     }
+
+
     
-
-    body { 
-background-color: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
-    }
-
