@@ -26,11 +26,14 @@ background-color: #d9dbdc;
 margin-right: 0.5cm;
 border-radius: 2px;
 font-family: arial,sans-serif;
+border-style: none;
 }
 
 .button:hover { 
 background-color: #b2bec3;
 transition: ease-out;
+border-style: solid
+
 }
 
 
@@ -65,34 +68,57 @@ border-radius: 20px;
 background-color: #dfe6e9
 }
 
-body { 
-    background-color: #white
-    }
+
 
 
     .entire-list { 
     display: flex; 
-    justify-content: flex-end;
+    justify-content: space-between;
       background-color: #white;
         box-shadow: 0px 0px 0px #bdc3c7; 
       padding: 0.5cm; 
       list-style: none;   
       position: relative;
       bottom: 1cm;
+      
     }
 
 
     .item a {
-      margin-right: 1cm;  
+      margin-right; 1cm;  
       text-decoration: none;
-      color: black;
+      color: #0e0303e8;
     }
 
     .item2 { 
-    margin-right: 25cm;
+    margin-right: 27cm;
+
 
     }
 
+    .item4 { 
+    margin-right: 2px; 
+    }
+
+    .item5  {
+        box-shadow: 0px 0px 4px; 
+        background-color: #1a73e8;
+        padding: 9px 23px; 
+        border-radius: 2px;
+        font-color: white;
+        position: relative; 
+        bottom: 5.5px;
+
+    }
+
+    .signin a  { 
+color: #fff;
+    }
+
+
+.signin:hover { 
+opacity: 0.8;
+}
 
 
 
@@ -112,6 +138,31 @@ position: relative;
 right: 8cm;
 }
 
+
+footer { 
+  height: 2cm; 
+  box-shadow: 0px 0px 10px;
+  position: relative; 
+  top: 16cm; 
+  text-decoration: none;  
+  background-color: azure; 
+  opacity: 0.3;  
+  
+  }
+
+  .footerstyle { 
+    font-size: 0.5cm;
+  }
+
+  .container { 
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+
+  .element { 
+    margin-right: 20cm ;
+  }
 
 
 
@@ -144,4 +195,3 @@ right: 8cm;
     }
 
 
-    
